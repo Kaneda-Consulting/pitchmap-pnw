@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "PitchMap PNW",
     "tagline": "The PNW startup pitch competition directory",
-    "lastUpdated": "2026-09-24",
+    "lastUpdated": "2026-09-30",
     "maintainer": "Leila Kaneda",
     "githubHandle": "lkaneda"
   },
@@ -70,8 +70,7 @@
           "url": "https://www.tieoregon.org/pitch-club",
           "eventUrl": "https://events.tie.org/Oregon/PitchClub_November2026",
           "notes": "Ongoing monthly program. Next event held at CENTRL Office Pearl on November 18, 2026 at 5:30pm. Requires TiE Oregon membership. Contact Kari.Naone@oregon.tie.org or register through the TiE Oregon events page.",
-          "prizeType": "none",
-          "internalTags": ["updated"]
+          "prizeType": "none"
         },
         {
           "name": "TiE Women Global Pitch Competition",
@@ -89,9 +88,10 @@
           "description": "Entrepreneurship program for Oregon-based university students with a regional pitch competition and global competition opportunity at the TiE Global Summit. Teams of 2–7 members with at least 2 current students or recent graduates (within 24 months). Includes mentorship from successful Oregon business leaders and access to TiE's global network.",
           "url": "https://www.tieoregon.org/programs/tie-university",
           "eventUrl": null,
-          "notes": "2025–2026 regional pitch completed April 4, 2026. Global competition December 2026 at TiE Global Summit in Silicon Valley. Monitor for 2026–2027 registration (typically opens November).",
+          "notes": "2025–2026 regional pitch completed April 4, 2026; that cohort's global competition is December 2026 at TiE Global Summit in Silicon Valley. 2026–2027 cycle announced: registration opens November 2, 2026, application deadline January 17, 2027. Regional Pitch Competition: April 3, 2027. Global competition: December 2027 at TiE Global Summit.",
           "prizeType": "cash",
-          "accelerator": true
+          "accelerator": true,
+          "internalTags": ["updated"]
         },
         {
           "name": "Pitch Polish Bootcamp Competition",
@@ -144,8 +144,7 @@
           "eventUrl": "https://oen.app.neoncrm.com/np/clients/oen/event.jsp?event=515&",
           "notes": "Cohort 1 Pitch Day completed April 7. Cohort 2 registration has closed ahead of the original October 20 deadline. Pitch Day is October 20, 2026 (hybrid, in-person preferred). Investment decisions for Cohort 2 announced August 2027.",
           "prizeType": "investment",
-          "accelerator": true,
-          "internalTags": ["updated"]
+          "accelerator": true
         },
         {
           "name": "Angel Oregon CPG",
@@ -155,8 +154,7 @@
           "eventUrl": "https://oen.app.neoncrm.com/np/clients/oen/event.jsp?event=520&",
           "notes": "Cohort 1 Pitch Day completed April 8. Cohort 2 registration has closed ahead of the original October 21 deadline. Pitch Day is October 21, 2026. Investment eligibility finalized and announced in June 2027.",
           "prizeType": "investment",
-          "accelerator": true,
-          "internalTags": ["updated"]
+          "accelerator": true
         },
         {
           "name": "Angel Oregon BIO",
@@ -166,8 +164,7 @@
           "eventUrl": "https://oen.app.neoncrm.com/np/clients/oen/event.jsp?event=525&",
           "notes": "Cohort 1 Pitch Day completed April 9. Cohort 2 registration has closed ahead of the original October 22 deadline. Pitch Day is October 22, 2026. Investment decision announced December 2026.",
           "prizeType": "investment",
-          "accelerator": true,
-          "internalTags": ["updated"]
+          "accelerator": true
         },
         {
           "name": "Pop Up & Pitch",
@@ -240,8 +237,7 @@
           "url": "https://www.otradi.org",
           "eventUrl": null,
           "notes": "OBI Annual Startup Spotlight Expo (September 17, 2026) has concluded and is no longer listed on the homepage. No other pitch/demo event currently announced — upcoming items are non-pitch networking events (Accelerate Biotech Happy Hours Nov 5 & Dec 3). Monitor otradi.org/otradi-events/ for the next pitch or demo event.",
-          "prizeType": "cash",
-          "internalTags": ["updated"]
+          "prizeType": "cash"
         }
       ]
     },
@@ -280,8 +276,7 @@
           "eventUrl": "https://www.vertuelab.org/opalene-climate-challenge",
           "notes": "Applications closed August 24, 2026. Screening/due diligence Aug 4–Sept 2; finalists notified Sept 18. Celebration event with finalist presentations: October 1, 2026. Investment disbursement October 2026. Multiple investments of $100,000 or more (pre-seed to Series A, clean tech sectors: energy, mobility, built environment, agriculture, industrial). Monitor for next cycle after this round concludes.",
           "prizeType": "investment",
-          "serves": "Washington State",
-          "internalTags": ["new"]
+          "serves": "Washington State"
         }
       ]
     },
@@ -598,8 +593,7 @@
           "eventUrl": null,
           "notes": "Applications closed May 30, 2026. Contest event: September 16, 2026. Monitor for 2027 cycle.",
           "prizeType": "in-kind",
-          "serves": "Washington (Statewide)",
-          "internalTags": ["updated"]
+          "serves": "Washington (Statewide)"
         }
       ]
     },
