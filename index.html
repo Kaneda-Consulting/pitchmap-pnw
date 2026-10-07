@@ -1335,7 +1335,7 @@
       'in-kind':  ['prize-in-kind',    '🎁 In-Kind'],
       none:       ['prize-none',       '❌ No Prize'],
     };
-    const [cls, label] = map[prizeType] || ['prize-cash', '💵 Cash / Grant'];
+    const [cls, label] = map[prizeType] || ['prize-none', '❌ No Prize'];
     return `<span class="prize-tag ${cls}">${label}</span>`;
   }
 
