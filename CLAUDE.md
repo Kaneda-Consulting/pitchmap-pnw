@@ -43,7 +43,7 @@ Each competition has one or more `events`, each with a `status` field: `acceptin
 
 ## Contributing Data
 
-Data changes go in `data.json` only. The README describes the full data schema including valid values for `serviceArea`, `prizeType`, `status`, and `tags`. The `.github/ISSUE_TEMPLATE/` directory has issue templates for different request types (new competitions, updates, bugs, suggestions).
+Data changes go in `data.json` only. The README describes the full data schema including valid values for `serviceArea`, `prizeType`, and `status` (`tags` is free-text, not a closed list). The `.github/ISSUE_TEMPLATE/` directory has issue templates for different request types (new competitions, updates, bugs, suggestions).
 
 ## Competition-Specific Notes
 
