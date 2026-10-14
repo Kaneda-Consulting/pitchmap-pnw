@@ -118,10 +118,11 @@ Everything in the directory lives in a single file: [`data.json`](data.json). Ea
 |---|---|
 | `"cash"` | Cash prize or grant |
 | `"investment"` | Equity or SAFE investment |
-| `"both"` | Cash prize plus investment |
 | `"loan"` | Loan financing opportunity |
 | `"in-kind"` | Non-monetary prizes that hold value |
 | `"none"` | No prize |
+
+`prizeType` accepts either a single value or an array when an event offers more than one kind of prize, e.g. `"prizeType": ["cash", "investment"]`. Each value is shown as its own tag and matched by the corresponding filter.
 
 
 ---

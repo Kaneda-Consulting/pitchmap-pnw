@@ -708,7 +708,6 @@
     }
     .prize-cash       { background: rgba(63,185,80,0.1);  color: var(--green); border: 1px solid rgba(63,185,80,0.3); }
     .prize-investment { background: rgba(88,166,255,0.1); color: var(--blue);  border: 1px solid rgba(88,166,255,0.3); }
-    .prize-both       { background: rgba(240,165,0,0.1);  color: var(--accent);border: 1px solid rgba(240,165,0,0.3); }
     .prize-loan       { background: rgba(210,153,34,0.1); color: var(--yellow);border: 1px solid rgba(210,153,34,0.3); }
     .prize-in-kind    { background: rgba(155,100,255,0.1); color: #b388ff;     border: 1px solid rgba(155,100,255,0.3); }
     .prize-none       { background: rgba(72,79,88,0.2);   color: var(--gray);  border: 1px solid rgba(72,79,88,0.4); }
@@ -1147,7 +1146,6 @@
     <button class="pill" data-filter="university">🎓 University</button>
     <button class="pill" data-filter="cash">💵 Cash / Grant</button>
     <button class="pill" data-filter="investment">📈 Investment</button>
-    <button class="pill" data-filter="both">💵📈 Cash + Investment</button>
     <button class="pill" data-filter="loan">🏦 Loan</button>
     <button class="pill" data-filter="in-kind">🎁 In-Kind</button>
     <button class="pill" data-filter="none">❌ No Prize</button>
@@ -1326,17 +1324,24 @@
     return areaLabels[comp.serviceArea] || comp.serviceArea;
   }
 
+  // prizeType may be a single string or an array of strings
+  function prizeTypes(e) {
+    return Array.isArray(e.prizeType) ? e.prizeType : [e.prizeType];
+  }
+
   function prizeTagHTML(prizeType) {
     const map = {
       cash:       ['prize-cash',       '💵 Cash / Grant'],
       investment: ['prize-investment', '📈 Investment'],
-      both:       ['prize-both',       '💵📈 Cash + Investment'],
       loan:       ['prize-loan',       '🏦 Loan'],
       'in-kind':  ['prize-in-kind',    '🎁 In-Kind'],
       none:       ['prize-none',       '❌ No Prize'],
     };
-    const [cls, label] = map[prizeType] || ['prize-none', '❌ No Prize'];
-    return `<span class="prize-tag ${cls}">${label}</span>`;
+    const types = Array.isArray(prizeType) ? prizeType : [prizeType];
+    return types.map(t => {
+      const [cls, label] = map[t] || ['prize-none', '❌ No Prize'];
+      return `<span class="prize-tag ${cls}">${label}</span>`;
+    }).join('');
   }
 
   // ── STATUS PRIORITY ──
@@ -1363,12 +1368,8 @@
       if (f === 'gorge')          return c.serviceArea === 'gorge';
       if (f === 'oregon-south-coast') return c.serviceArea === 'oregon-south-coast';
       if (f === 'accepting' || f === 'scheduled' || f === 'monitor' || f === 'inactive') return best === f;
-      if (f === 'cash')       return c.events.some(e => e.prizeType === 'cash' || e.prizeType === 'both');
-      if (f === 'investment') return c.events.some(e => e.prizeType === 'investment' || e.prizeType === 'both');
-      if (f === 'both')       return c.events.some(e => e.prizeType === 'both');
-      if (f === 'loan')       return c.events.some(e => e.prizeType === 'loan');
-      if (f === 'in-kind')    return c.events.some(e => e.prizeType === 'in-kind');
-      if (f === 'none')       return c.events.some(e => e.prizeType === 'none');
+      if (f === 'cash' || f === 'investment' || f === 'loan' || f === 'in-kind' || f === 'none')
+        return c.events.some(e => prizeTypes(e).includes(f));
       return c.tags.includes(f);
     });
   }
@@ -1404,7 +1405,7 @@
           e.name.toLowerCase().includes(q) ||
           e.description.toLowerCase().includes(q) ||
           e.status.toLowerCase().includes(q) ||
-          e.prizeType.toLowerCase().includes(q) ||
+          prizeTypes(e).some(t => t.toLowerCase().includes(q)) ||
           (e.notes && e.notes.toLowerCase().includes(q)) ||
           (e.accelerator === true && 'accelerator'.includes(q))
         );
