@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "PitchMap PNW",
     "tagline": "The PNW startup pitch competition directory",
-    "lastUpdated": "2026-10-01",
+    "lastUpdated": "2026-10-07",
     "maintainer": "Leila Kaneda",
     "githubHandle": "lkaneda"
   },
@@ -29,8 +29,9 @@
           "description": "Portland's monthly pitch event reintroduced in 2024 by UpStart Collective. Founders get 3 minutes to pitch, audience votes for the winner. Monthly champion advances to an annual Championship Showdown.",
           "url": "https://www.pitchatdemolicious.com",
           "eventUrl": "https://forms.gle/TKvxFS2taT7NtRZb8",
-          "notes": "2026 is the final year of the monthly format. Remaining monthly events: September 17 and October 15 at UpStart Collective (Big Pink), plus a November date, then the 2026 Champion of Champions in December at Mission Theater, Portland (date TBD). Starting January 2027 Demolicious becomes an annual event rather than monthly. October 15 RSVP is open via Luma; sign up to pitch through their website.",
-          "prizeType": "none"
+          "notes": "2026 is the final year of the monthly format. Remaining monthly events: October 15 and November 19, 5pm at UpStart Collective (Big Pink). 2026 Champion of Champions: December 3 at Mission Theater, Portland — monthly winners face off for a belt and non-dilutive prize money (tickets on sale via etix). Starting January 2027 Demolicious becomes an annual event rather than monthly. RSVP via Luma; sign up to pitch through their website.",
+          "prizeType": "none",
+          "internalTags": ["updated"]
         }
       ]
     },
@@ -90,8 +91,7 @@
           "eventUrl": null,
           "notes": "2025–2026 regional pitch completed April 4, 2026; that cohort's global competition is December 2026 at TiE Global Summit in Silicon Valley. 2026–2027 cycle announced: registration opens November 2, 2026, application deadline January 17, 2027. Regional Pitch Competition: April 3, 2027. Global competition: December 2027 at TiE Global Summit.",
           "prizeType": "cash",
-          "accelerator": true,
-          "internalTags": ["updated"]
+          "accelerator": true
         },
         {
           "name": "Pitch Polish Bootcamp Competition",
@@ -133,8 +133,9 @@
           "description": "Monthly pitch event where founders get 5 minutes to pitch virtually or in person. Regional thought leaders ask questions and give feedback.",
           "url": "https://oen.app.neoncrm.com/nx/portal/event-detail?event=691",
           "eventUrl": "https://oen.app.neoncrm.com/forms/pitch-please-septembercopied-registration?event=691",
-          "notes": "Runs monthly. September 15, 2026 session completed and its registration is now closed. Next session October 20th on Zoom — check the OEN events calendar for the confirmed date and registration link.",
-          "prizeType": "none"
+          "notes": "Runs monthly. Next session: Pitch, Please: October on Tuesday, October 20, 2026 (Zoom). Registration to pitch at this session closes Friday, October 16. Check the OEN events calendar for future sessions.",
+          "prizeType": "none",
+          "internalTags": ["updated"]
         },
         {
           "name": "Angel Oregon Technology",
@@ -270,12 +271,13 @@
         },
         {
           "name": "Opalene Climate Challenge",
-          "status": "scheduled",
+          "status": "monitor",
           "description": "Investment program pooling philanthropic capital (via donor-advised funds and impact-investing partner Realize Impact) to make direct investments in early-stage Washington clean technology companies, with a focus on climate resilience, climate mitigation, and historically underrepresented founders. Finalists present to a Selection Committee.",
           "url": "https://www.vertuelab.org/opalene-climate-challenge",
-          "eventUrl": "https://www.vertuelab.org/opalene-climate-challenge",
-          "notes": "Applications closed August 24, 2026. Screening/due diligence Aug 4–Sept 2; finalists notified Sept 18. Celebration event with finalist presentations: October 1, 2026. Investment disbursement October 2026. Multiple investments of $100,000 or more (pre-seed to Series A, clean tech sectors: energy, mobility, built environment, agriculture, industrial). Monitor for next cycle after this round concludes.",
+          "eventUrl": null,
+          "notes": "2026 round: applications closed August 24; finalists presented at a celebration at the Seattle Climate Innovation Hub on October 1, 2026, with investments made in October. Multiple investments of $100,000 or more (pre-seed to Series A, clean tech sectors: energy, mobility, built environment, agriculture, industrial). Monitor for the next cycle.",
           "prizeType": "investment",
+          "internalTags": ["updated"],
           "serves": "Washington State"
         }
       ]
@@ -382,9 +384,9 @@
           "name": "Founders Live Seattle",
           "status": "accepting",
           "description": "Monthly happy-hour pitch competition where 5 founders each give a 99-second pitch followed by audience Q&A. Audience votes determine the winner. Seattle is the birthplace of Founders Live.",
-          "url": "https://www.founderslive.com/events-list/seattle-2026-09",
+          "url": "https://www.founderslive.com/events-list/seattle-2026-10",
           "eventUrl": "https://www.founderslive.com/pitch",
-          "notes": "Next event September 24, 2026, 6–9 PM at thinkspace, 1700 Westlake Avenue North, Seattle. Also scheduled: October 29, 2026, 6–9 PM (venue TBA). Apply to pitch at founderslive.com/pitch.",
+          "notes": "Next event October 29, 2026, 6–9 PM at Labor Temple Seattle, 2800 1st Avenue, Seattle. Apply to pitch at founderslive.com/pitch.",
           "prizeType": "in-kind"
         }
       ]
@@ -471,12 +473,13 @@
       "events": [
         {
           "name": "Impact Pitch Competition",
-          "status": "scheduled",
+          "status": "monitor",
           "description": "Annual multi-round pitch competition open to small businesses in Alaska, Idaho, Oregon, and Washington. Focuses on community impact alongside business viability. Three categories: Startup/Idea Stage, Early Stage, and Established. Note: tech companies and apps are not eligible.",
           "url": "https://businessimpactnw.org/annual-events/impact-pitch/overview/",
-          "eventUrl": "https://businessimpactnw.org/annual-events/impact-pitch/contest/#ipapplication",
-          "notes": "Round 1 closed June 1. Round 2 closed June 30 (results July 15). Round 3 submissions due August 10; coach meetings July 20–24. Introduction video submissions due September 8. Live pitch event October 1, 2026. $46,000 total in prizes (five $1,000 Community Impact Awards, ten $1,000 Finalist Grants, one $1,000 Audience Voting Award, three $10,000 Grand Prizes).",
-          "prizeType": "cash"
+          "eventUrl": null,
+          "notes": "2026 competition concluded with the live pitch event on October 1, 2026. $46,000 total in prizes (five $1,000 Community Impact Awards, ten $1,000 Finalist Grants, one $1,000 Audience Voting Award, three $10,000 Grand Prizes). Round 1 applications typically close around June 1. Monitor for the 2027 cycle.",
+          "prizeType": "cash",
+          "internalTags": ["updated"]
         }
       ]
     },
@@ -712,6 +715,35 @@
           "counties": [
             "Deschutes County"
           ]
+        }
+      ]
+    },
+    {
+      "id": "launch-mid-valley",
+      "org": "Launch Mid-Valley",
+      "url": "https://www.launchmidvalley.org/",
+      "serviceArea": "oregon",
+      "location": {
+        "lat": 44.9429,
+        "lng": -123.0351,
+        "city": "Salem, OR"
+      },
+      "tags": [
+        "general",
+        "investor",
+        "early-stage"
+      ],
+      "events": [
+        {
+          "name": "Pitch Willamette",
+          "status": "monitor",
+          "description": "Shark-Tank-style pitch night in Salem where local founders pitch live to a panel of investors, hosted by Launch Mid-Valley (supported by SEDCOR). Open to seed-stage founders building scalable, traded-sector innovation companies in Oregon — technology, advanced manufacturing, consumer products, food and beverage, health, and adjacent industries — with a working product or proof of demand and a defined raise. Attendees vote on a $1,000 People's Choice Award.",
+          "url": "https://www.launchmidvalley.org/event-info/pitch-willamette-1",
+          "eventUrl": null,
+          "notes": "2026 event completed October 2 at Cellar 54, Salem, with eleven founders pitching (applications closed September 13). Monitor launchmidvalley.org events for the next cycle.",
+          "prizeType": "both",
+          "serves": "Oregon (Willamette Valley focus)",
+          "internalTags": ["new"]
         }
       ]
     }
