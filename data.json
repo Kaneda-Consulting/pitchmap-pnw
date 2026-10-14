@@ -59,7 +59,7 @@
           "url": "https://www.tieoregon.org/pitch-oregon/westside-pitch",
           "eventUrl": null,
           "notes": "2026 cycle completed April 23 in Hillsboro. Monitor for 2027 cycle — applications typically open early winter.",
-          "prizeType": "both",
+          "prizeType": ["cash", "investment"],
           "counties": [
             "Washington County"
           ]
@@ -305,7 +305,7 @@
           "url": "https://cascadiacleantech.org/accelerate/",
           "eventUrl": null,
           "notes": "No active cycle found; website shows 2024 content only. Monitor for future announcements.",
-          "prizeType": "both",
+          "prizeType": ["cash", "investment"],
           "accelerator": true
         }
       ]
