@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "PitchMap PNW",
     "tagline": "The PNW startup pitch competition directory",
-    "lastUpdated": "2026-10-14",
+    "lastUpdated": "2026-10-21",
     "maintainer": "Leila Kaneda",
     "githubHandle": "lkaneda"
   },
@@ -29,8 +29,9 @@
           "description": "Portland's monthly pitch event reintroduced in 2024 by UpStart Collective. Founders get 3 minutes to pitch, audience votes for the winner. Monthly champion advances to an annual Championship Showdown.",
           "url": "https://www.pitchatdemolicious.com",
           "eventUrl": "https://forms.gle/TKvxFS2taT7NtRZb8",
-          "notes": "2026 is the final year of the monthly format. Remaining monthly events: October 15 and November 19, 5pm at UpStart Collective (Big Pink). 2026 Champion of Champions: December 3 at Mission Theater, Portland — monthly winners face off for a belt and non-dilutive prize money (tickets on sale via etix). Starting January 2027 Demolicious becomes an annual event rather than monthly. RSVP via Luma; sign up to pitch through their website.",
-          "prizeType": "none"
+          "notes": "2026 is the final year of the monthly format. Final monthly event: November 19, 5pm at UpStart Collective (Big Pink). 2026 Champion of Champions: December 3 at Mission Theater, Portland — monthly winners face off for a belt and non-dilutive prize money (tickets on sale via etix). Starting January 2027 Demolicious becomes an annual event rather than monthly. RSVP via Luma; sign up to pitch through their website.",
+          "prizeType": "cash",
+          "internalTags": ["updated"]
         }
       ]
     },
@@ -58,7 +59,8 @@
           "url": "https://www.tieoregon.org/pitch-oregon/westside-pitch",
           "eventUrl": null,
           "notes": "2026 cycle completed April 23 in Hillsboro. Monitor for 2027 cycle — applications typically open early winter.",
-          "prizeType": ["cash", "investment"],
+          "prizeType": ["cash", "investment", "in-kind"],
+          "internalTags": ["updated"],
           "counties": [
             "Washington County"
           ]
@@ -89,7 +91,8 @@
           "url": "https://www.tieoregon.org/programs/tie-university",
           "eventUrl": null,
           "notes": "2025–2026 regional pitch completed April 4, 2026; that cohort's global competition is December 2026 at TiE Global Summit in Silicon Valley. 2026–2027 cycle announced: registration opens November 2, 2026, application deadline January 17, 2027. Regional Pitch Competition: April 3, 2027. Global competition: December 2027 at TiE Global Summit.",
-          "prizeType": "cash",
+          "prizeType": ["cash", "in-kind"],
+          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -99,7 +102,8 @@
           "url": "https://events.tie.org/Oregon/PitchPolishBootcampCompetition2026",
           "eventUrl": "https://events.tie.org/Oregon/PitchPolishBootcampCompetition2026#/buyTickets/selectTickets?lang=en",
           "notes": "Final Pitch Day: November 20, 2026, 10:00 AM at Austin Hall, Oregon State University, Corvallis, OR. Registration open now. Additional bootcamp details to be announced.",
-          "prizeType": "investment",
+          "prizeType": ["investment", "in-kind"],
+          "internalTags": ["updated"],
           "counties": [
             "Benton County"
           ]
@@ -130,19 +134,21 @@
           "name": "Pitch Please",
           "status": "accepting",
           "description": "Monthly pitch event where founders get 5 minutes to pitch virtually or in person. Regional thought leaders ask questions and give feedback.",
-          "url": "https://oen.app.neoncrm.com/nx/portal/event-detail?event=691",
-          "eventUrl": "https://oen.app.neoncrm.com/forms/pitch-please-septembercopied-registration?event=691",
-          "notes": "Runs monthly. Next session: Pitch, Please: October on Tuesday, October 20, 2026 (Zoom). Registration to pitch at this session closes Friday, October 16. Check the OEN events calendar for future sessions.",
-          "prizeType": "none"
+          "url": "https://oen.app.neoncrm.com/nx/portal/event-detail?event=696",
+          "eventUrl": "https://oen.app.neoncrm.com/forms/pitch-please-octobercopied-registration?event=696",
+          "notes": "Runs monthly. October session held Tuesday, October 20, 2026. Next session: Pitch, Please: November 2026 — see the event page for date and registration details. Check the OEN events calendar for future sessions.",
+          "prizeType": "none",
+          "internalTags": ["updated"]
         },
         {
           "name": "Angel Oregon Technology",
-          "status": "scheduled",
+          "status": "monitor",
           "description": "5-week intensive program for early-stage technology founders culminating in a live Pitch Day in front of active investors.",
           "url": "https://www.oen.org/2026-technology/",
-          "eventUrl": "https://oen.app.neoncrm.com/np/clients/oen/event.jsp?event=515&",
-          "notes": "Cohort 1 Pitch Day completed April 7. Cohort 2 registration has closed ahead of the original October 20 deadline. Pitch Day is October 20, 2026 (hybrid, in-person preferred). Investment decisions for Cohort 2 announced August 2027.",
+          "eventUrl": null,
+          "notes": "Cohort 1 Pitch Day completed April 7. Cohort 2 Pitch Day completed October 20, 2026. Investment decisions for Cohort 2 announced August 2027. Monitor for the 2027 program.",
           "prizeType": "investment",
+          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -355,7 +361,7 @@
           "status": "monitor",
           "description": "Monthly happy-hour pitch competition where 5 founders each give a 99-second pitch followed by 4 minutes of audience Q&A. Audience votes determine the winner.",
           "url": "https://www.founderslive.com/",
-          "eventUrl": "https://www.founderslive.com/events-list",
+          "eventUrl": null,
           "notes": "Last event June 25, 2026 at White Owl Social Club, Portland. No upcoming Portland events currently listed. Monitor founderslive.com for next Portland date. Apply to pitch at founderslive.com/pitch.",
           "prizeType": "in-kind"
         }
@@ -444,7 +450,8 @@
           "url": "https://www.oregonstartupcenter.org/beaverton-startup-challenge",
           "eventUrl": null,
           "notes": "2025 Demo Day completed May 13 at the Patricia Reser Center for the Arts. Applications typically open Q1 annually. Monitor for 2027 cycle.",
-          "prizeType": "investment",
+          "prizeType": ["investment", "in-kind"],
+          "internalTags": ["updated"],
           "counties": [
             "Washington County"
           ]
@@ -581,7 +588,8 @@
           "url": "https://www.score.org/wa/greater-seattle/2026-womens-pitch-contest/",
           "eventUrl": null,
           "notes": "2026 competition concluded. Winners announced April 2, 2026. Recognition event May 6, 2026 at Washington Small Business Awards Gala. Check back October 2026 for next cycle.",
-          "prizeType": "loan",
+          "prizeType": ["loan", "in-kind"],
+          "internalTags": ["updated"],
           "serves": "Washington, Alaska & Northern Idaho"
         },
         {
@@ -673,8 +681,9 @@
           "description": "Annual pitch competition hosted by the South Coast Development Council serving entrepreneurs in Coos, Curry, and Douglas Counties. Focuses on priority sectors including outdoor recreation, digital services, advanced manufacturing, value-added agriculture, clean energy, marine/coastal industries, and forestry innovation.",
           "url": "https://scdcinc.org/entrepreneurship/pitch-night/",
           "eventUrl": null,
-          "notes": "2026 event completed June 12 at Mr. Ed's, Port Orford. Prizes: 1st $6,500 / 2nd $2,000 / 3rd $1,200 / 4th–5th $650 each + audience choice. Monitor for 2027 cycle.",
-          "prizeType": "cash",
+          "notes": "2026 event completed June 12 at Mr. Ed's, Port Orford. Prizes: 1st $6,500 / 2nd $2,000 / 3rd $1,200 / 4th–5th $650 each + audience choice, plus association memberships and management training. Monitor for 2027 cycle.",
+          "prizeType": ["cash", "in-kind"],
+          "internalTags": ["updated"],
           "counties": [
             "Coos County",
             "Curry County",
@@ -701,12 +710,13 @@
       "events": [
         {
           "name": "BVC Pitch Contest",
-          "status": "scheduled",
+          "status": "monitor",
           "description": "Presented by Economic Development for Central Oregon (EDCO), billed as the largest angel conference in the Pacific Northwest. Startups pitch across three tracks — Growth Tech, Growth Industries, and Early Stage — to attendees including angel investors. Investment opportunities are not guaranteed by the contest itself; finalists pitch to attendees who may choose to invest independently.",
           "url": "https://www.bendvc.com/",
-          "eventUrl": "https://www.bendvc.com/apply",
-          "notes": "2026 applications closed August 13. Ten Early Stage semifinalists were announced September 15, 2026; they pitch September 24 at Central Oregon PubTalk: Road to BVC at Worthy Brewing's outdoor stage in Bend, where the audience also awards one Early Stage company $5,000 (courtesy of Washington Trust Bank) and votes on who advances. Growth Tech and Growth Industries finalists are announced in early October. Conference and finals: October 15–16, 2026 at the Tower Theatre, downtown Bend. At least $40,000 in cash goes to a Central Oregon–headquartered startup. Applicants must be U.S.-based C-corps with an open funding round Sept–Nov 2026.",
-          "prizeType": "investment",
+          "eventUrl": null,
+          "notes": "2026 conference and finals completed October 15–16 at the Tower Theatre, downtown Bend. 2026 winners: VeriBuy, Osheru, Penderia Technologies, Caravel Bio, CleanHaus, and Permeta. The 2026 cycle also included a $5,000 Early Stage audience award (Washington Trust Bank) at PubTalk: Road to BVC, and at least $40,000 earmarked for a Central Oregon–headquartered startup. Applicants must be U.S.-based C-corps with an open funding round. Monitor for the 2027 cycle.",
+          "prizeType": ["investment", "cash"],
+          "internalTags": ["updated"],
           "serves": "Central Oregon",
           "counties": [
             "Deschutes County"
