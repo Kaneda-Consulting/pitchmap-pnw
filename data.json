@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "PitchMap PNW",
     "tagline": "The PNW startup pitch competition directory",
-    "lastUpdated": "2026-10-21",
+    "lastUpdated": "2026-10-28",
     "maintainer": "Leila Kaneda",
     "githubHandle": "lkaneda"
   },
@@ -30,8 +30,7 @@
           "url": "https://www.pitchatdemolicious.com",
           "eventUrl": "https://forms.gle/TKvxFS2taT7NtRZb8",
           "notes": "2026 is the final year of the monthly format. Final monthly event: November 19, 5pm at UpStart Collective (Big Pink). 2026 Champion of Champions: December 3 at Mission Theater, Portland — monthly winners face off for a belt and non-dilutive prize money (tickets on sale via etix). Starting January 2027 Demolicious becomes an annual event rather than monthly. RSVP via Luma; sign up to pitch through their website.",
-          "prizeType": "cash",
-          "internalTags": ["updated"]
+          "prizeType": "cash"
         }
       ]
     },
@@ -60,7 +59,6 @@
           "eventUrl": null,
           "notes": "2026 cycle completed April 23 in Hillsboro. Monitor for 2027 cycle — applications typically open early winter.",
           "prizeType": ["cash", "investment", "in-kind"],
-          "internalTags": ["updated"],
           "counties": [
             "Washington County"
           ]
@@ -92,7 +90,6 @@
           "eventUrl": null,
           "notes": "2025–2026 regional pitch completed April 4, 2026; that cohort's global competition is December 2026 at TiE Global Summit in Silicon Valley. 2026–2027 cycle announced: registration opens November 2, 2026, application deadline January 17, 2027. Regional Pitch Competition: April 3, 2027. Global competition: December 2027 at TiE Global Summit.",
           "prizeType": ["cash", "in-kind"],
-          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -103,7 +100,6 @@
           "eventUrl": "https://events.tie.org/Oregon/PitchPolishBootcampCompetition2026#/buyTickets/selectTickets?lang=en",
           "notes": "Final Pitch Day: November 20, 2026, 10:00 AM at Austin Hall, Oregon State University, Corvallis, OR. Registration open now. Additional bootcamp details to be announced.",
           "prizeType": ["investment", "in-kind"],
-          "internalTags": ["updated"],
           "counties": [
             "Benton County"
           ]
@@ -137,8 +133,7 @@
           "url": "https://oen.app.neoncrm.com/nx/portal/event-detail?event=696",
           "eventUrl": "https://oen.app.neoncrm.com/forms/pitch-please-octobercopied-registration?event=696",
           "notes": "Runs monthly. October session held Tuesday, October 20, 2026. Next session: Pitch, Please: November 2026 — see the event page for date and registration details. Check the OEN events calendar for future sessions.",
-          "prizeType": "none",
-          "internalTags": ["updated"]
+          "prizeType": "none"
         },
         {
           "name": "Angel Oregon Technology",
@@ -148,27 +143,28 @@
           "eventUrl": null,
           "notes": "Cohort 1 Pitch Day completed April 7. Cohort 2 Pitch Day completed October 20, 2026. Investment decisions for Cohort 2 announced August 2027. Monitor for the 2027 program.",
           "prizeType": "investment",
-          "internalTags": ["updated"],
           "accelerator": true
         },
         {
           "name": "Angel Oregon CPG",
-          "status": "scheduled",
+          "status": "monitor",
           "description": "5-week capital and funding literacy program for early-stage consumer packaged goods founders (food, beverage, personal care, wellness, lifestyle, and pet products) in Oregon and SW Washington. Virtual curriculum covers funding strategies, valuations, cap tables, and due diligence, culminating in a live Pitch Day in front of investors and community partners.",
           "url": "https://www.oen.org/2026-angel-oregon-consumer-packaged-goods/",
-          "eventUrl": "https://oen.app.neoncrm.com/np/clients/oen/event.jsp?event=520&",
-          "notes": "Cohort 1 Pitch Day completed April 8. Cohort 2 registration has closed ahead of the original October 21 deadline. Pitch Day is October 21, 2026. Investment eligibility finalized and announced in June 2027.",
+          "eventUrl": null,
+          "notes": "Cohort 1 Pitch Day completed April 8. Cohort 2 Pitch Day completed October 21, 2026. Investment for Cohort 2 finalized and announced June 2027. Monitor for the 2027 program.",
           "prizeType": "investment",
+          "internalTags": ["updated"],
           "accelerator": true
         },
         {
           "name": "Angel Oregon BIO",
-          "status": "scheduled",
+          "status": "monitor",
           "description": "5-week intensive program for early-stage life science and bioscience founders culminating in a live Pitch Day in front of active investors. Investment announced in December 2026.",
           "url": "https://www.oen.org/2026-angel-oregon-life-bioscience/",
-          "eventUrl": "https://oen.app.neoncrm.com/np/clients/oen/event.jsp?event=525&",
-          "notes": "Cohort 1 Pitch Day completed April 9. Cohort 2 registration has closed ahead of the original October 22 deadline. Pitch Day is October 22, 2026. Investment decision announced December 2026.",
+          "eventUrl": null,
+          "notes": "Cohort 1 Pitch Day completed April 9. Cohort 2 Pitch Day completed October 22, 2026. Investment decision announced December 2026. Monitor for the 2027 program.",
           "prizeType": "investment",
+          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -451,7 +447,6 @@
           "eventUrl": null,
           "notes": "2025 Demo Day completed May 13 at the Patricia Reser Center for the Arts. Applications typically open Q1 annually. Monitor for 2027 cycle.",
           "prizeType": ["investment", "in-kind"],
-          "internalTags": ["updated"],
           "counties": [
             "Washington County"
           ]
@@ -589,7 +584,6 @@
           "eventUrl": null,
           "notes": "2026 competition concluded. Winners announced April 2, 2026. Recognition event May 6, 2026 at Washington Small Business Awards Gala. Check back October 2026 for next cycle.",
           "prizeType": ["loan", "in-kind"],
-          "internalTags": ["updated"],
           "serves": "Washington, Alaska & Northern Idaho"
         },
         {
@@ -683,7 +677,6 @@
           "eventUrl": null,
           "notes": "2026 event completed June 12 at Mr. Ed's, Port Orford. Prizes: 1st $6,500 / 2nd $2,000 / 3rd $1,200 / 4th–5th $650 each + audience choice, plus association memberships and management training. Monitor for 2027 cycle.",
           "prizeType": ["cash", "in-kind"],
-          "internalTags": ["updated"],
           "counties": [
             "Coos County",
             "Curry County",
@@ -716,7 +709,6 @@
           "eventUrl": null,
           "notes": "2026 conference and finals completed October 15–16 at the Tower Theatre, downtown Bend. 2026 winners: VeriBuy, Osheru, Penderia Technologies, Caravel Bio, CleanHaus, and Permeta. The 2026 cycle also included a $5,000 Early Stage audience award (Washington Trust Bank) at PubTalk: Road to BVC, and at least $40,000 earmarked for a Central Oregon–headquartered startup. Applicants must be U.S.-based C-corps with an open funding round. Monitor for the 2027 cycle.",
           "prizeType": ["investment", "cash"],
-          "internalTags": ["updated"],
           "serves": "Central Oregon",
           "counties": [
             "Deschutes County"
