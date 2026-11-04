@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "PitchMap PNW",
     "tagline": "The PNW startup pitch competition directory",
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-11-04",
     "maintainer": "Leila Kaneda",
     "githubHandle": "lkaneda"
   },
@@ -84,12 +84,13 @@
         },
         {
           "name": "TiE U Regional Pitch Competition",
-          "status": "monitor",
+          "status": "accepting",
           "description": "Entrepreneurship program for Oregon-based university students with a regional pitch competition and global competition opportunity at the TiE Global Summit. Teams of 2–7 members with at least 2 current students or recent graduates (within 24 months). Includes mentorship from successful Oregon business leaders and access to TiE's global network.",
           "url": "https://www.tieoregon.org/programs/tie-university",
-          "eventUrl": null,
-          "notes": "2025–2026 regional pitch completed April 4, 2026; that cohort's global competition is December 2026 at TiE Global Summit in Silicon Valley. 2026–2027 cycle announced: registration opens November 2, 2026, application deadline January 17, 2027. Regional Pitch Competition: April 3, 2027. Global competition: December 2027 at TiE Global Summit.",
+          "eventUrl": "https://forms.gle/WGT8FTfYjEu22wuMA",
+          "notes": "2026–2027 registration opened November 2, 2026; application deadline January 17, 2027. Regional Pitch Competition: April 3, 2027. Global competition: December 2027 at TiE Global Summit. (Previous 2025–2026 cohort's regional pitch completed April 4, 2026; its global competition is December 2026 at TiE Global Summit in Silicon Valley.)",
           "prizeType": ["cash", "in-kind"],
+          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -132,8 +133,9 @@
           "description": "Monthly pitch event where founders get 5 minutes to pitch virtually or in person. Regional thought leaders ask questions and give feedback.",
           "url": "https://oen.app.neoncrm.com/nx/portal/event-detail?event=696",
           "eventUrl": "https://oen.app.neoncrm.com/forms/pitch-please-octobercopied-registration?event=696",
-          "notes": "Runs monthly. October session held Tuesday, October 20, 2026. Next session: Pitch, Please: November 2026 — see the event page for date and registration details. Check the OEN events calendar for future sessions.",
-          "prizeType": "none"
+          "notes": "Runs monthly. Next session: Pitch, Please: November — Tuesday, November 17, 2026, 11:00 AM–1:00 PM PT. Register to pitch or observe (member and non-member options) via the registration form. Check the OEN events calendar for future sessions.",
+          "prizeType": "none",
+          "internalTags": ["updated"]
         },
         {
           "name": "Angel Oregon Technology",
@@ -153,7 +155,6 @@
           "eventUrl": null,
           "notes": "Cohort 1 Pitch Day completed April 8. Cohort 2 Pitch Day completed October 21, 2026. Investment for Cohort 2 finalized and announced June 2027. Monitor for the 2027 program.",
           "prizeType": "investment",
-          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -164,7 +165,6 @@
           "eventUrl": null,
           "notes": "Cohort 1 Pitch Day completed April 9. Cohort 2 Pitch Day completed October 22, 2026. Investment decision announced December 2026. Monitor for the 2027 program.",
           "prizeType": "investment",
-          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -383,10 +383,11 @@
           "name": "Founders Live Seattle",
           "status": "accepting",
           "description": "Monthly happy-hour pitch competition where 5 founders each give a 99-second pitch followed by audience Q&A. Audience votes determine the winner. Seattle is the birthplace of Founders Live.",
-          "url": "https://www.founderslive.com/events-list/seattle-2026-10",
+          "url": "https://www.founderslive.com/events-list/athletes-2026-12",
           "eventUrl": "https://www.founderslive.com/pitch",
-          "notes": "Next event October 29, 2026, 6–9 PM at Labor Temple Seattle, 2800 1st Avenue, Seattle. Apply to pitch at founderslive.com/pitch.",
-          "prizeType": "in-kind"
+          "notes": "Next event: Founders Live Athletes Big Bash, Tuesday, December 1, 2026, 5–10 PM at The Showbox, 1426 1st Avenue, Seattle — part of Sports Venture Week with Venture Black, WTIA, and Gametime Hero. Pitching founders TBA. Apply to pitch at founderslive.com/pitch.",
+          "prizeType": "in-kind",
+          "internalTags": ["updated"]
         }
       ]
     },
