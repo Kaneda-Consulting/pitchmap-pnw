@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "PitchMap PNW",
     "tagline": "The PNW startup pitch competition directory",
-    "lastUpdated": "2026-11-04",
+    "lastUpdated": "2026-11-11",
     "maintainer": "Leila Kaneda",
     "githubHandle": "lkaneda"
   },
@@ -90,7 +90,6 @@
           "eventUrl": "https://forms.gle/WGT8FTfYjEu22wuMA",
           "notes": "2026–2027 registration opened November 2, 2026; application deadline January 17, 2027. Regional Pitch Competition: April 3, 2027. Global competition: December 2027 at TiE Global Summit. (Previous 2025–2026 cohort's regional pitch completed April 4, 2026; its global competition is December 2026 at TiE Global Summit in Silicon Valley.)",
           "prizeType": ["cash", "in-kind"],
-          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -134,37 +133,39 @@
           "url": "https://oen.app.neoncrm.com/nx/portal/event-detail?event=696",
           "eventUrl": "https://oen.app.neoncrm.com/forms/pitch-please-octobercopied-registration?event=696",
           "notes": "Runs monthly. Next session: Pitch, Please: November — Tuesday, November 17, 2026, 11:00 AM–1:00 PM PT. Register to pitch or observe (member and non-member options) via the registration form. Check the OEN events calendar for future sessions.",
-          "prizeType": "none",
-          "internalTags": ["updated"]
+          "prizeType": "none"
         },
         {
           "name": "Angel Oregon Technology",
-          "status": "monitor",
+          "status": "scheduled",
           "description": "5-week intensive program for early-stage technology founders culminating in a live Pitch Day in front of active investors.",
-          "url": "https://www.oen.org/2026-technology/",
-          "eventUrl": null,
-          "notes": "Cohort 1 Pitch Day completed April 7. Cohort 2 Pitch Day completed October 20, 2026. Investment decisions for Cohort 2 announced August 2027. Monitor for the 2027 program.",
+          "url": "https://www.oen.org/programs/angel-oregon/technology/",
+          "eventUrl": "https://www.oen.org/programs/angel-oregon/technology/",
+          "notes": "2027 cohort dates announced: Cohort 1 runs March 9 – March 31, 2027; Cohort 2 runs September 28 – October 20, 2027. Registration not yet open. 2026 Cohort 2 Pitch Day completed October 20, 2026; investment decisions announced August 2027.",
           "prizeType": "investment",
+          "internalTags": ["updated"],
           "accelerator": true
         },
         {
           "name": "Angel Oregon CPG",
-          "status": "monitor",
+          "status": "scheduled",
           "description": "5-week capital and funding literacy program for early-stage consumer packaged goods founders (food, beverage, personal care, wellness, lifestyle, and pet products) in Oregon and SW Washington. Virtual curriculum covers funding strategies, valuations, cap tables, and due diligence, culminating in a live Pitch Day in front of investors and community partners.",
-          "url": "https://www.oen.org/2026-angel-oregon-consumer-packaged-goods/",
-          "eventUrl": null,
-          "notes": "Cohort 1 Pitch Day completed April 8. Cohort 2 Pitch Day completed October 21, 2026. Investment for Cohort 2 finalized and announced June 2027. Monitor for the 2027 program.",
+          "url": "https://www.oen.org/programs/angel-oregon/angel-oregon-consumer-packaged-goods/",
+          "eventUrl": "https://www.oen.org/programs/angel-oregon/angel-oregon-consumer-packaged-goods/",
+          "notes": "2027 cohort dates announced: Cohort 1 runs March 2 – March 30, 2027; Cohort 2 runs September 21 – October 19, 2027. Registration not yet open. 2026 Cohort 2 Pitch Day completed October 21, 2026; investment finalized and announced June 2027.",
           "prizeType": "investment",
+          "internalTags": ["updated"],
           "accelerator": true
         },
         {
           "name": "Angel Oregon BIO",
-          "status": "monitor",
-          "description": "5-week intensive program for early-stage life science and bioscience founders culminating in a live Pitch Day in front of active investors. Investment announced in December 2026.",
-          "url": "https://www.oen.org/2026-angel-oregon-life-bioscience/",
-          "eventUrl": null,
-          "notes": "Cohort 1 Pitch Day completed April 9. Cohort 2 Pitch Day completed October 22, 2026. Investment decision announced December 2026. Monitor for the 2027 program.",
+          "status": "scheduled",
+          "description": "5-week intensive program for early-stage life science and bioscience founders culminating in a live Pitch Day in front of active investors. Investment presented at the annual AOBIO Investment Mixer in December.",
+          "url": "https://www.oen.org/programs/angel-oregon/angel-oregon-life-bioscience/",
+          "eventUrl": "https://www.oen.org/programs/angel-oregon/angel-oregon-life-bioscience/",
+          "notes": "2027 cohort dates announced: Cohort 1 runs March 16 – April 1, 2027; Cohort 2 runs October 5 – October 21, 2027. Registration not yet open. 2026 Cohort 2 Pitch Day completed October 22, 2026; 2026 investment announced at the AOBIO Investment Mixer, December 7, 2026, 4–7 PM at Mission Theater, Portland.",
           "prizeType": "investment",
+          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -386,8 +387,7 @@
           "url": "https://www.founderslive.com/events-list/athletes-2026-12",
           "eventUrl": "https://www.founderslive.com/pitch",
           "notes": "Next event: Founders Live Athletes Big Bash, Tuesday, December 1, 2026, 5–10 PM at The Showbox, 1426 1st Avenue, Seattle — part of Sports Venture Week with Venture Black, WTIA, and Gametime Hero. Pitching founders TBA. Apply to pitch at founderslive.com/pitch.",
-          "prizeType": "in-kind",
-          "internalTags": ["updated"]
+          "prizeType": "in-kind"
         }
       ]
     },
@@ -583,7 +583,7 @@
           "description": "Annual pitch competition for women entrepreneurs in Washington, Alaska, and Northern Idaho. Focused on helping women-led businesses secure loan financing. Finalists pitch directly to bank and financial institution loan officers.",
           "url": "https://www.score.org/wa/greater-seattle/2026-womens-pitch-contest/",
           "eventUrl": null,
-          "notes": "2026 competition concluded. Winners announced April 2, 2026. Recognition event May 6, 2026 at Washington Small Business Awards Gala. Check back October 2026 for next cycle.",
+          "notes": "2026 competition concluded. Winners announced April 2, 2026. Recognition event May 6, 2026 at Washington Small Business Awards Gala. Contest currently closed (confirmed November 2026). Monitor for the next cycle.",
           "prizeType": ["loan", "in-kind"],
           "serves": "Washington, Alaska & Northern Idaho"
         },
@@ -671,13 +671,14 @@
       ],
       "events": [
         {
-          "name": "Pitch Night: Curry County",
-          "status": "monitor",
+          "name": "Pitch Night: Coos County",
+          "status": "scheduled",
           "description": "Annual pitch competition hosted by the South Coast Development Council serving entrepreneurs in Coos, Curry, and Douglas Counties. Focuses on priority sectors including outdoor recreation, digital services, advanced manufacturing, value-added agriculture, clean energy, marine/coastal industries, and forestry innovation.",
           "url": "https://scdcinc.org/entrepreneurship/pitch-night/",
-          "eventUrl": null,
-          "notes": "2026 event completed June 12 at Mr. Ed's, Port Orford. Prizes: 1st $6,500 / 2nd $2,000 / 3rd $1,200 / 4th–5th $650 each + audience choice, plus association memberships and management training. Monitor for 2027 cycle.",
+          "eventUrl": "https://scdcinc.org/contact/apply-to-pitch-at-pitch-night/",
+          "notes": "4th Coos County Pitch Night: January 22, 2027, 5–8 PM at the Back Alley Pub at North Bend Lanes, North Bend, OR. Applications open Friday, November 13 through Sunday, December 13, 2026 at 11:59pm. (2026 Curry County Pitch Night completed June 12 at Mr. Ed's, Port Orford.)",
           "prizeType": ["cash", "in-kind"],
+          "internalTags": ["updated"],
           "counties": [
             "Coos County",
             "Curry County",
