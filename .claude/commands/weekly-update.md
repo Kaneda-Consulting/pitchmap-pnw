@@ -194,3 +194,18 @@ Mode: <both | update-only | add-only>
 
 If there were zero total changes (no updates found and no new entries), make that explicit:
 "No changes were made to data.json this week."
+
+---
+
+### Step 6 — Update the AI consumption banner (only if Steps 1–5 succeeded)
+
+Run this only if the update above finished without errors and `data.json` is still valid JSON (check with `python3 -m json.tool data.json > /dev/null`). If the update was aborted or `data.json` is broken, skip this step and say so in the summary. Run it last so it counts as much of this session's usage as possible.
+
+```
+node scripts/update-consumption.mjs
+```
+
+The script reads this session's token usage (via `$CLAUDE_CODE_SESSION_ID`), checks the calculator page against its pinned hash, and rewrites the banner in `index.html`. Do not edit the banner by hand.
+
+- **Success (exit 0):** it prints JSON with `waterMl`, `energyWh`, and the token counts. Add a line to the summary: `AI CONSUMPTION: 💧 <waterMl> mL water, ⚡ <energyWh> Wh energy (<output> output tokens)`. If you commit, put the consumption change in its own commit titled `Update weekly AI consumption figures (<waterMl> mL water, <energyWh> Wh energy)`.
+- **Failure (non-zero exit):** `index.html` is left unchanged. Report the error message verbatim in the summary. **If it reports a hash mismatch, do not edit `scripts/consumption.lock.json`, do not bypass the check, and do not work out the figures yourself.** Tell the user the calculator (or ccusage) changed upstream and needs a human review before the hash is updated.

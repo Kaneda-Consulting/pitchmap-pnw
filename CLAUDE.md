@@ -18,6 +18,8 @@ python3 -m http.server 8080
 
 There are no build, lint, or test commands — the project has no `package.json` or dependencies.
 
+`scripts/update-consumption.mjs` (Node built-ins only) updates the weekly AI consumption banner in `index.html`; see README. It verifies ccusage and the calculator against `scripts/consumption.lock.json` before running either. Never weaken that check or update a hash without the user reviewing the upstream change.
+
 ## Architecture
 
 **`index.html`** — the entire application, organized into clearly commented sections:
