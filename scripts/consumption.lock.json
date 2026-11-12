@@ -1,0 +1,29 @@
+{
+  "_comment": "Pinned hashes for scripts/update-consumption.mjs. Nothing downloaded is executed unless it matches a hash here. To update: review the upstream change by hand, then replace the hash in a reviewed PR.",
+  "calculator": {
+    "url": "https://raw.githubusercontent.com/Kaneda-Consulting/ai-consumption-calc/main/index.html",
+    "sha256": "e025e5da8de16bb862852b00e4f75a3c93d1d98ab334c9c304360e5e19f1aa80",
+    "reviewedCommit": "67ef7b858b1fd5f46d9fdd09727eb76a843c6350"
+  },
+  "ccusage": {
+    "version": "20.0.45",
+    "packages": {
+      "darwin-arm64": {
+        "tarball": "https://registry.npmjs.org/@ccusage/ccusage-darwin-arm64/-/ccusage-darwin-arm64-20.0.45.tgz",
+        "integrity": "sha512-Bt9+nd2IPLRhbU7Kj9MnH9u80RNUyOoiHLe4J6Xg3/RCEJXs52xkU+rL8z/GE/1/por1Gr0vUVtroPcfOE8DYA=="
+      },
+      "darwin-x64": {
+        "tarball": "https://registry.npmjs.org/@ccusage/ccusage-darwin-x64/-/ccusage-darwin-x64-20.0.45.tgz",
+        "integrity": "sha512-D/dEhLsgxoCLPgkpSCaUACXU/b93ToXKCQ0XpQ7NhSkH+K5zMdKN/AXRYGrZqi186289JWnrSVud++maaNDvww=="
+      },
+      "linux-arm64": {
+        "tarball": "https://registry.npmjs.org/@ccusage/ccusage-linux-arm64/-/ccusage-linux-arm64-20.0.45.tgz",
+        "integrity": "sha512-bPNJBLbT79PP8Kw3IHi7VNLxJsfYccFuZfMapjpUJECgc716dvwLuqxP1vDe3WEE41W2RH81f/h9ifVdDJXdnw=="
+      },
+      "linux-x64": {
+        "tarball": "https://registry.npmjs.org/@ccusage/ccusage-linux-x64/-/ccusage-linux-x64-20.0.45.tgz",
+        "integrity": "sha512-cUO2nw2BHRdKIyIWqvlsWN2tCtdmI1YlscSkAdHZMGfK5/aT+mYnoYg+BaJUMtoEpZS2rS/ZbsXPcE9r7VXsbQ=="
+      }
+    }
+  }
+}

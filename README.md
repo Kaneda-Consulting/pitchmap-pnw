@@ -133,10 +133,22 @@ Everything in the directory lives in a single file: [`data.json`](data.json). Ea
 pitchmappnw/
 ├── index.html    ← The website (HTML, CSS, and JS in one file)
 ├── data.json     ← All directory data — the only file updated regularly
+├── scripts/      ← Maintainer tooling (not part of the site)
 └── README.md     ← This file
 ```
 
 The site is a single static HTML file with no build step, no framework, and no backend. It loads `data.json` at runtime. Hosting is free via [GitHub Pages](https://pages.github.com/).
+
+### Weekly AI consumption banner
+
+`scripts/update-consumption.mjs` updates the "This week's update consumed…" banner in `index.html` after a weekly update. It reads the session's token usage with [ccusage](https://github.com/ryoppippi/ccusage), runs the [AI consumption calculator](https://kaneda-consulting.github.io/ai-consumption-calc/) on those numbers, and writes the Claude lower-bound (floor) figures into the banner. The script only uses Node built-ins.
+
+Both downloads are checked against hashes in `scripts/consumption.lock.json` before anything runs: a sha512 for the ccusage binary, and a sha256 for the calculator page, which is fetched fresh from GitHub each time. If either hash doesn't match, the script exits without changing anything. When the calculator changes on purpose, review the upstream diff, then update `calculator.sha256` and `reviewedCommit` in the lock file in a reviewed PR.
+
+```
+node scripts/update-consumption.mjs              # uses $CLAUDE_CODE_SESSION_ID
+node scripts/update-consumption.mjs --session <uuid> --dry-run
+```
 
 ---
 
