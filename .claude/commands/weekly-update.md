@@ -91,6 +91,12 @@ For each competition in `data.json`:
 
 Work through all competitions. Fetch their URLs in parallel where possible to save time.
 
+**Keep token usage low** (output tokens drive the consumption banner):
+- If you have a direct `WebFetch` tool, call it yourself with a short extraction prompt (e.g. "List upcoming pitch events with dates, application deadlines, status. Be brief.") — do not delegate to sub-agents.
+- If you only have the `web-fetch` agent, split URLs across at most 4 agents and put these rules in each prompt: "Deliver your report immediately via your final message — do not end without handing it back. Output exactly one line per URL: `URL | HTTP status | changes vs. the current entry: none / <one-line change> | fetch failure if any`. No prose, no prize or sponsor details, no recaps of unchanged info. Include current entry's key dates in the prompt so you only report differences."
+- Do not resume or re-ask an agent for a report unless it is actually missing.
+- Pass each agent the relevant current `status`, dates and `notes` from `data.json` so it can answer "changed or not" instead of describing the whole page.
+
 ---
 
 ### Step 3 — Add new entries (skip if `--update-only`)
