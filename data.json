@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "PitchMap PNW",
     "tagline": "The PNW startup pitch competition directory",
-    "lastUpdated": "2026-11-11",
+    "lastUpdated": "2026-11-18",
     "maintainer": "Leila Kaneda",
     "githubHandle": "lkaneda"
   },
@@ -130,10 +130,11 @@
           "name": "Pitch Please",
           "status": "accepting",
           "description": "Monthly pitch event where founders get 5 minutes to pitch virtually or in person. Regional thought leaders ask questions and give feedback.",
-          "url": "https://oen.app.neoncrm.com/nx/portal/event-detail?event=696",
-          "eventUrl": "https://oen.app.neoncrm.com/forms/pitch-please-octobercopied-registration?event=696",
-          "notes": "Runs monthly. Next session: Pitch, Please: November — Tuesday, November 17, 2026, 11:00 AM–1:00 PM PT. Register to pitch or observe (member and non-member options) via the registration form. Check the OEN events calendar for future sessions.",
-          "prizeType": "none"
+          "url": "https://oen.app.neoncrm.com/nx/portal/event-detail?event=797",
+          "eventUrl": "https://oen.app.neoncrm.com/forms/pitch-please-december?event=797",
+          "notes": "Runs monthly. Next session: Pitch, Please: December — Tuesday, December 15, 2026. Register to pitch or observe (member and non-member options) via the registration form. Check the OEN events calendar for future sessions.",
+          "prizeType": "none",
+          "internalTags": ["updated"]
         },
         {
           "name": "Angel Oregon Technology",
@@ -143,7 +144,6 @@
           "eventUrl": "https://www.oen.org/programs/angel-oregon/technology/",
           "notes": "2027 cohort dates announced: Cohort 1 runs March 9 – March 31, 2027; Cohort 2 runs September 28 – October 20, 2027. Registration not yet open. 2026 Cohort 2 Pitch Day completed October 20, 2026; investment decisions announced August 2027.",
           "prizeType": "investment",
-          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -154,7 +154,6 @@
           "eventUrl": "https://www.oen.org/programs/angel-oregon/angel-oregon-consumer-packaged-goods/",
           "notes": "2027 cohort dates announced: Cohort 1 runs March 2 – March 30, 2027; Cohort 2 runs September 21 – October 19, 2027. Registration not yet open. 2026 Cohort 2 Pitch Day completed October 21, 2026; investment finalized and announced June 2027.",
           "prizeType": "investment",
-          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -165,7 +164,6 @@
           "eventUrl": "https://www.oen.org/programs/angel-oregon/angel-oregon-life-bioscience/",
           "notes": "2027 cohort dates announced: Cohort 1 runs March 16 – April 1, 2027; Cohort 2 runs October 5 – October 21, 2027. Registration not yet open. 2026 Cohort 2 Pitch Day completed October 22, 2026; 2026 investment announced at the AOBIO Investment Mixer, December 7, 2026, 4–7 PM at Mission Theater, Portland.",
           "prizeType": "investment",
-          "internalTags": ["updated"],
           "accelerator": true
         },
         {
@@ -672,7 +670,7 @@
       "events": [
         {
           "name": "Pitch Night: Coos County",
-          "status": "scheduled",
+          "status": "accepting",
           "description": "Annual pitch competition hosted by the South Coast Development Council serving entrepreneurs in Coos, Curry, and Douglas Counties. Focuses on priority sectors including outdoor recreation, digital services, advanced manufacturing, value-added agriculture, clean energy, marine/coastal industries, and forestry innovation.",
           "url": "https://scdcinc.org/entrepreneurship/pitch-night/",
           "eventUrl": "https://scdcinc.org/contact/apply-to-pitch-at-pitch-night/",
