@@ -2,7 +2,7 @@
   "meta": {
     "siteName": "PitchMap PNW",
     "tagline": "The PNW startup pitch competition directory",
-    "lastUpdated": "2026-11-18",
+    "lastUpdated": "2026-11-25",
     "maintainer": "Leila Kaneda",
     "githubHandle": "lkaneda"
   },
@@ -69,8 +69,9 @@
           "description": "Monthly mock investor meeting where entrepreneurs present pitches and receive real-time feedback from TiE Oregon angel investors. Includes Q&A sessions with experienced investors, written peer and investor feedback, and a digital copy of your pitch. Focused on skill-building and refining pitches — no competition prize.",
           "url": "https://www.tieoregon.org/pitch-club",
           "eventUrl": "https://events.tie.org/Oregon/PitchClub_November2026",
-          "notes": "Ongoing monthly program. Next event held at CENTRL Office Pearl on November 18, 2026 at 5:30pm. Requires TiE Oregon membership. Contact Kari.Naone@oregon.tie.org or register through the TiE Oregon events page.",
-          "prizeType": "none"
+          "notes": "Ongoing monthly program. Next event: December 2, 2026. Requires TiE Oregon membership. Contact Kari.Naone@oregon.tie.org or register through the TiE Oregon events page.",
+          "prizeType": "none",
+          "internalTags": ["updated"]
         },
         {
           "name": "TiE Women Global Pitch Competition",
@@ -94,12 +95,13 @@
         },
         {
           "name": "Pitch Polish Bootcamp Competition",
-          "status": "scheduled",
+          "status": "monitor",
           "description": "Four-day investment-readiness bootcamp hosted by the OSU Advantage Accelerator at Oregon State University in collaboration with TiE Oregon, culminating in a live Final Pitch Day. Top finalists pitch on stage to investors and local executives, competing for an investment check from TiE Oregon Angels plus in-kind service awards.",
           "url": "https://events.tie.org/Oregon/PitchPolishBootcampCompetition2026",
-          "eventUrl": "https://events.tie.org/Oregon/PitchPolishBootcampCompetition2026#/buyTickets/selectTickets?lang=en",
-          "notes": "Final Pitch Day: November 20, 2026, 10:00 AM at Austin Hall, Oregon State University, Corvallis, OR. Registration open now. Additional bootcamp details to be announced.",
+          "eventUrl": null,
+          "notes": "2026 Final Pitch Day was scheduled for November 20, 2026 at Austin Hall, Oregon State University, Corvallis, OR (date has passed; results not verified). Monitor for the next cycle.",
           "prizeType": ["investment", "in-kind"],
+          "internalTags": ["updated"],
           "counties": [
             "Benton County"
           ]
@@ -133,8 +135,7 @@
           "url": "https://oen.app.neoncrm.com/nx/portal/event-detail?event=797",
           "eventUrl": "https://oen.app.neoncrm.com/forms/pitch-please-december?event=797",
           "notes": "Runs monthly. Next session: Pitch, Please: December — Tuesday, December 15, 2026. Register to pitch or observe (member and non-member options) via the registration form. Check the OEN events calendar for future sessions.",
-          "prizeType": "none",
-          "internalTags": ["updated"]
+          "prizeType": "none"
         },
         {
           "name": "Angel Oregon Technology",
@@ -676,7 +677,6 @@
           "eventUrl": "https://scdcinc.org/contact/apply-to-pitch-at-pitch-night/",
           "notes": "4th Coos County Pitch Night: January 22, 2027, 5–8 PM at the Back Alley Pub at North Bend Lanes, North Bend, OR. Applications open Friday, November 13 through Sunday, December 13, 2026 at 11:59pm. (2026 Curry County Pitch Night completed June 12 at Mr. Ed's, Port Orford.)",
           "prizeType": ["cash", "in-kind"],
-          "internalTags": ["updated"],
           "counties": [
             "Coos County",
             "Curry County",
